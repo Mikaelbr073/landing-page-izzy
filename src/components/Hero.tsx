@@ -11,7 +11,7 @@ const imgAvatar1 =
 const imgAvatar2 =
   "https://www.figma.com/api/mcp/asset/12f53b62-85c6-44bb-9fb7-5a5bcb62a38a";
 const imgMascot =
-  "https://www.figma.com/api/mcp/asset/940cd15a-1c73-4d83-94c2-786d7b55a32a";
+  "https://www.figma.com/api/mcp/asset/c4a56afb-c388-425c-9702-35e196061139";
 const imgHeroDividerWave =
   "https://www.figma.com/api/mcp/asset/470e4849-a7f4-40b0-b12e-0e2e5deef28b";
 
@@ -137,14 +137,13 @@ export default function Hero() {
                 Congrats  → (346, 452)  270×80
                 Class     → (-64, 572)  290×80
             */}
-            <div
-              className="relative w-full max-w-[500px] sm:max-w-[560px] lg:max-w-none"
-              style={{ width: undefined }}
-            >
+            <div className="relative w-full max-w-[400px] sm:max-w-[480px] lg:w-[590px] lg:max-w-none">
               {/* Mascot image */}
               <img
                 alt="Izzy Peazy mascot"
-                className="w-full lg:w-[580px] lg:h-[620px] object-cover rounded-2xl block"
+                width={590}
+                height={626}
+                className="w-full h-auto block"
                 src={imgMascot}
               />
 

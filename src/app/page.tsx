@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import BenefitsParents from "@/components/BenefitsParents";
 import BenefitsStudents from "@/components/BenefitsStudents";
 import HowItWorks from "@/components/HowItWorks";
-import Testimonials from "@/components/Testimonials";
+// import Testimonials from "@/components/Testimonials";
 import WaitlistCTA from "@/components/WaitlistCTA";
 import Footer from "@/components/Footer";
 
@@ -15,7 +15,7 @@ export default function Home() {
       <BenefitsParents />
       <BenefitsStudents />
       <HowItWorks />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <WaitlistCTA />
       <Footer />
     </main>
